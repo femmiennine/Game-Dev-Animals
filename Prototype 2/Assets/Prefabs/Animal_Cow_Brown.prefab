@@ -971,6 +971,8 @@ GameObject:
   - component: {fileID: 8927328847279677558}
   - component: {fileID: 8927328847242696331}
   - component: {fileID: 1000879278298667642}
+  - component: {fileID: 3232983392238742482}
+  - component: {fileID: 274482532}
   m_Layer: 0
   m_Name: Animal_Cow_Brown
   m_TagString: Untagged
@@ -986,7 +988,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8927328847286814454}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0.6648674, y: 0, z: 11.07}
+  m_LocalPosition: {x: 0.6648674, y: 0, z: 11.059}
   m_LocalScale: {x: 0.09, y: 0.09, z: 0.09}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1037,6 +1039,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8e39b1d8870d446ad8a2b692a2974591, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &3232983392238742482
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8927328847286814454}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 15.168478, y: 37.02524, z: 46.93189}
+  m_Center: {x: 0.1833505, y: 13.512613, z: -0.026337305}
+--- !u!114 &274482532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8927328847286814454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c40437627cf50418aa35f131c470c2b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &8927328847286814560
