@@ -1,5 +1,11 @@
 # Game-Dev-Animals
 
+## Tech Stack used:
+
+### C# & Unity
+
+
+
 This game has been built and published in Unity WebGL. Kindly click the link below to try out my first ever microgame.
 
 https://play.unity.com/mg/other/animaldashbuildsample
